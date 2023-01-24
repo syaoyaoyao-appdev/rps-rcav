@@ -1,0 +1,17 @@
+<a href="/rock">Play Rock</a>
+<a href="/paper">Play Paper</a>
+<a href="/scissors">Play Scissors</a>
+
+<h2>We played paper!</h2>
+
+<% comp_move = ["rock", "paper", "scissors"].sample%>
+
+<h2>
+  They played <%= @comp_move %>!
+</h2>
+
+<h2>
+  <%= @outcome %>
+</h2>
+
+<a href="/">Rules</a>
